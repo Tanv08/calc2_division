@@ -1,26 +1,32 @@
-""" This is the increment function"""
-class Calculator:
-    """ This is the Calculator class"""
+"""Testing the Calculator"""
+from calculator.main import Calculator
 
-    result = 0
-    def get_result(self):
-        """ Get Result of Calculation"""
-        return self.result
+def test_calculator_result():
+    """testing calculator result is 0"""
+    calc = Calculator()
+    assert calc.result == 0
 
-    def add_number(self, value_a):
-        """ adds number to result"""
-        self.result = self.result + value_a
-        return self.result
-    def subtract_number(self, value_a):
-        """ subtract number from result"""
-        self.result = self.result - value_a
-        return self.result
-    def multiply_numbers(self, value_a, value_b):
-        """ multiply two numbers and store the result"""
-        self.result = value_a * value_b
-        return self.result
+def test_calculator_add():
+    """Testing the Add function of the calculator"""
+    #Arrange by instantiating the calc class
+    calc = Calculator()
+    #Act by calling the method to be tested
+    calc.add_number(4)
+    #Assert that the results are correct
+    assert calc.result == 4
 
-    def divide_numbers(self, value_a, value_b):
-        """ multiply two numbers and store the result"""
-        self.result = value_a / value_b
-        return self.result
+def test_calculator_get_result():
+    """Testing the Get result method of the calculator"""
+    calc = Calculator()
+    assert calc.get_result() == 0
+
+def test_calculator_subtract():
+    """Testing the subtract method of the calculator"""
+    calc = Calculator()
+    calc.subtract_number(1)
+    assert calc.get_result() == -1
+def test_calculator_multiply():
+    """ tests multiplication of two numbers"""
+    calc = Calculator()
+    result  = calc.multiply_numbers(1,0)
+    assert result == 0.5
