@@ -1,4 +1,4 @@
-language: python
+planguage: python
 python:
   - "3.9"
 install:
