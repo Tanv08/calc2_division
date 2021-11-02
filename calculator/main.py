@@ -21,6 +21,6 @@ class Calculator:
         return self.result
 
     def divide_numbers(self, value_a, value_b):
-        """ multiply two numbers and store the result"""
+        """ divide two numbers and store the result"""
         self.result = value_a / value_b
         return self.result
