@@ -1,8 +1,26 @@
-"""Testing the Calculator"""
-from calculator.main import Calculator
+""" This is the increment function"""
+class Calculator:
+    """ This is the Calculator class"""
 
-def divide_numbers():
-    """ tests multiplication of two numbers"""
-    calc = Calculator()
-    result  = calc.divide_numbers(0, 5)
-    assert result == 2
+    result = 0
+    def get_result(self):
+        """ Get Result of Calculation"""
+        return self.result
+
+    def add_number(self, value_a):
+        """ adds number to result"""
+        self.result = self.result + value_a
+        return self.result
+    def subtract_number(self, value_a):
+        """ subtract number from result"""
+        self.result = self.result - value_a
+        return self.result
+    def multiply_numbers(self, value_a, value_b):
+        """ multiply two numbers and store the result"""
+        self.result = value_a * value_b
+        return self.result
+
+    def divide_numbers(self, value_a, value_b):
+        """ multiply two numbers and store the result"""
+        self.result = value_a / value_b
+        return self.result
