@@ -30,4 +30,4 @@ def test_calculator_divide():
     """ test Division of two numbers"""
     calc=Calculator()
     result=calc.divide_numbers(8,4)
-    assert  result== 2
+    assert  result == 2
