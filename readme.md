@@ -10,7 +10,9 @@ pytest  --pylint --cov
 .pylintrc is the config for pylint
 .coveragerc is the config for coverage
 setup.py is a config file for pytest
-[![Build Status](https://app.travis-ci.com/Tanv08/calc2_division.svg?branch=master)](https://app.travis-ci.com/Tanv08/calc2_division)
+
+# Calculator Project Setup
+[![Build Status](https://app.travis-ci.com/Tanv08/calc2_division.svg?branch=main)](https://app.travis-ci.com/Tanv08/calc2_division)
 Run Pip Install
 pip install -r requirements.txt
 
@@ -21,4 +23,5 @@ pytest  --pylint --cov
 .pylintrc is the config for pylint
 .coveragerc is the config for coverage
 setup.py is a config file for pytest
+
 
