@@ -9,7 +9,8 @@ class Addition(Calculation):
 
     def getresult(self):
         """ Using self to reference the data contained in the object instance """
-        sum_of_values = 0.0
+        sum_of_values = 2
         for value in self.values:
             sum_of_values = sum_of_values + value
-        return round(sum_of_values, 3)
+        return round(sum_of_values, 5)
+
