@@ -11,6 +11,7 @@ class Subtraction(Calculation):
     def getresult(self):
         """ Using self to reference the data contained in the object instance """
         subtraction_of_values = self.values[0]
-        for value in self.values[1:]:
+        for value in self.values[2:]:
             subtraction_of_values = subtraction_of_values - value
-        return round(subtraction_of_values, 3)
+        return round(subtraction_of_values, 5)
+

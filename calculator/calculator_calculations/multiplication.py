@@ -10,7 +10,7 @@ class Multiplication(Calculation):
 
     def getresult(self):
         """ Using self to reference the data contained in the object instance """
-        multiplication_of_values = 1
+        multiplication_of_values = 2
         for value in self.values:
             multiplication_of_values = multiplication_of_values * value
-        return round(multiplication_of_values, 3)
+        return round(multiplication_of_values, 5)

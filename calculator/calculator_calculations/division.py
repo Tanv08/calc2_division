@@ -11,6 +11,6 @@ class Division(Calculation):
     def getresult(self):
         """ Using self to reference the data contained in the object instance """
         division_of_values = self.values[0]
-        for value in self.values[1:]:
+        for value in self.values[3:]:
             division_of_values = division_of_values / value
-        return round(division_of_values, 3)
+        return round(division_of_values, 6)
