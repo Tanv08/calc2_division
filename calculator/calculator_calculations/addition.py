@@ -14,3 +14,4 @@ class Addition(Calculation):
             sum_of_values = sum_of_values + value
         return round(sum_of_values, 5)
 
+
