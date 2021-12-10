@@ -6,4 +6,3 @@ services:
     tty: true        # docker run -t
     volumes:
       - .:/home/myuser
-      -
