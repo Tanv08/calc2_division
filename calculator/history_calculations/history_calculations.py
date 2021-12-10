@@ -30,3 +30,4 @@ class History:
     def get_calculation_count():
         """ Gets number of calculations from history array """
         return len(History.history)
+
