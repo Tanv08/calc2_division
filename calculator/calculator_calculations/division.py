@@ -14,3 +14,4 @@ class Division(Calculation):
         for value in self.values[3:]:
             division_of_values = division_of_values / value
         return round(division_of_values, 6)
+

@@ -15,3 +15,4 @@ class Subtraction(Calculation):
             subtraction_of_values = subtraction_of_values - value
         return round(subtraction_of_values, 5)
 
+

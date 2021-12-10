@@ -14,3 +14,4 @@ class Multiplication(Calculation):
         for value in self.values:
             multiplication_of_values = multiplication_of_values * value
         return round(multiplication_of_values, 5)
+
