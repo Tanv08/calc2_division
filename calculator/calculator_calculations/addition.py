@@ -15,3 +15,4 @@ class Addition(Calculation):
         return round(sum_of_values, 5)
 
 
+
