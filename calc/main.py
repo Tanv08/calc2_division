@@ -85,4 +85,3 @@ class Calculator:
         else:
             logger.debug('Divide: %f / %f = %f', args[0], args[1], division)
             return History.get_last_calculation_added()
-
