@@ -42,3 +42,4 @@ def test_calculator_divide(clear_history):
     """ To check if calculator division result is correct """
     for i in range(length):
         assert Calculator.divide_nums(num1[i], num2[i]) == div[i]
+
